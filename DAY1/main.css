@@ -16,7 +16,7 @@ body {
 
 .container {
   display: flex;
-  width: 90vw;
+  width: 100vw;
   gap: 15px;
   justify-content: center;
 }
@@ -35,7 +35,7 @@ body {
 }
 
 .panel.active{
-    width: 800px;
+    width: 900px;
 }
 
 
