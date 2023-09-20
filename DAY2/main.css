@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
 *{
     box-sizing: border-box;
 }
@@ -14,5 +16,33 @@ body{
 }
 
 .container{
+    text-align: center;
+}
 
+.progress{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-bottom: 30px;
+    max-width: 100%;
+    width: 350px;
+    z-index: 1;
+}
+
+.progress::before{
+    content: "";
+    background-color: #e0e0e0;
+    position: absolute;
+    height: 4px;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 100%;
+    z-index: 0;
+}
+
+.circle{
+    border: 4px  #e0e0e0 solid;
+    border-radius: 100%;
+    padding: 5px 10px;
 }
