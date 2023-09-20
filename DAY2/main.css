@@ -40,6 +40,7 @@ body{
     z-index: -1;
 }
 
+
 .circle{
     border: 4px  #e0e0e0 solid;
     background-color: #f6f7fb;
@@ -49,4 +50,32 @@ body{
 
 .circle.active{
     border-color: #3498db;
+}
+
+.prev__btn{
+    width: 90px;
+    color: #fff;
+    border: 0;
+    border-radius: 6px;
+    font-family: inherit;
+    padding: 8px 30px;
+    margin: 5px;
+    font-size: 14px;
+}
+.prev__btn:disabled{
+    background-color: #e0e0e0;
+    cursor: not-allowed;
+}
+
+.next__btn{
+    background-color: #3498db;
+   width: 90px;
+    color: #fff;
+    border: 0;
+    cursor: pointer;
+    border-radius: 6px;
+    font-family: inherit;
+    padding: 8px 30px;
+    margin: 5px;
+    font-size: 14px;
 }
