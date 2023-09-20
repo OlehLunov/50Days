@@ -26,7 +26,6 @@ body{
     margin-bottom: 30px;
     max-width: 100%;
     width: 350px;
-    z-index: 1;
 }
 
 .progress::before{
@@ -37,12 +36,17 @@ body{
     top: 50%;
     left: 0;
     transform: translateY(-50%);
-    width: 100%;
-    z-index: 0;
+    width: calc(100% - 35px);
+    z-index: -1;
 }
 
 .circle{
     border: 4px  #e0e0e0 solid;
-    border-radius: 100%;
+    background-color: #f6f7fb;
+    border-radius: 50%;
     padding: 5px 10px;
+}
+
+.circle.active{
+    border-color: #3498db;
 }
