@@ -40,6 +40,18 @@ body{
     z-index: -1;
 }
 
+.step__progress{
+    background-color: #3498db;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    height: 4px;
+    width: 100%;
+    z-index: -1;
+    transition: 0.4s ease;
+}
+
 
 .circle{
     border: 4px  #e0e0e0 solid;
@@ -79,3 +91,4 @@ body{
     margin: 5px;
     font-size: 14px;
 }
+
